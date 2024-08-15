@@ -12,7 +12,7 @@ const CoinByID = () => {
         .then((response) => response.json())
         .then((response) => setData(response))
         .catch((err) => console.log(err));
-    }, []);
+    });
 
     console.log(data);
 
