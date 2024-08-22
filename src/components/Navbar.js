@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 function Navbar(props){
   console.log(props);
     return (
-        <div className="border shadow-xl">
-            <nav className="flex justify-between px-8 items-center">
+        <div className=" border shadow-xl">
+            <nav className=" flex justify-between px-8 items-center">
             <Link to={"/"}>
             {" "}
             <h1 className="text-[50px] font-bold cursor-pointer">myCrypto<span className="text-blue-800">Tracker</span></h1>
