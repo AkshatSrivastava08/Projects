@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="bottom-0 left-0 z-20 w-full bg-white flex p-4 justify-between items-center">
       <h1 className="text-[20px] font-black cursor-pointer">
-        myCrypto<span className="text-blue-800">Tracker </span>
+        myCrypto<span className="text-indigo-500">Tracker </span>
       </h1>
       <div className="flex text-[30px] gap-3">
         <FaXTwitter />
