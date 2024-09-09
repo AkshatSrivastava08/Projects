@@ -23,7 +23,7 @@ const Trending = () => {
         })
         .catch((err) => console.log(err));
     }
-  }, [user]);
+  }, [user, navigate]);
 
   // useEffect(() => {
 

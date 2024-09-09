@@ -22,7 +22,7 @@ const Top10 = () => {
         response.json().then((data) => setData(data))
       );
     }
-  }, [user]);
+  }, [user,navigate]);
 
   // useEffect(() => {
 
